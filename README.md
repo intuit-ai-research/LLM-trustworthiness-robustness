@@ -1,6 +1,6 @@
-# LLM-response-quality-eval
+# LLM-trustworthiness-robustness
 
-LLM-response-quality-eval is a research initiative by Intuit AI Research that focuses on fundamental research in the area of LLM response quality assessment. Some of our projects include -
+This project is a research initiative by Intuit AI Research that focuses on fundamental research in the area of LLM response quality assessment, LLM trustworthiness and robustness. Some of our projects include -
 - Hallucination detection and mitigation :- [(SAC3)](#sac3-reliable-hallucination-detection-in-black-box-language-models-via-semantic-aware-cross-check-consistency)Semantic-aware cross-check consistency, [DCR-Consistency](#dcr-consistency--divide-conquer-reasoning-for-consistency-evaluation-and-improvement-of-large-language-models): Divide-Conquer-Reasoning for Consistency Evaluation and Improvement of Large Language Models
 - Uncertainty quantification :- [SPUQ](#spuq--perturbation-based-uncertainty-quantification-for-large-language-models): Perturbation-Based Uncertainty Quantification for Large Language Models
 
