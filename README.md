@@ -13,19 +13,19 @@ This project is a research initiative by Intuit AI Research that focuses on fund
 - [2023.11] SAC3 [arxiv link](https://arxiv.org/abs/2311.01740) available.
 - [2023.10] SAC3 paper accepted at EMNLP 2023.
 
-## Hallucination detection and mitigation
+## Hallucination Detection and Mitigation
 ### SAC3: Reliable Hallucination Detection in Black-Box Language Models via Semantic-aware Cross-check Consistency
 [[Paper]](https://arxiv.org/abs/2311.01740) [[Code]](https://github.com/intuit-ai-research/LLM-response-quality-eval/tree/master/SAC3)
 
 Semantic-aware cross-check consistency (SAC3) is a novel sampling-based hallucination detection method that expands on the principle of self-consistency checking and incorporates additional mechanisms to detect both question-level and model-level hallucinations by leveraging advances including semantically equivalent question perturbation and cross-model response consistency checking.
 
-### DCR-consistency : Divide-Conquer-Reasoning for Consistency Evaluation and Improvement of Large Language Models
+### DCR-Consistency : Divide-Conquer-Reasoning for Consistency Evaluation and Improvement of Large Language Models
 [[Paper]](https://arxiv.org/abs/2401.02132) [[Code]](https://github.com/intuit-ai-research/LLM-response-quality-eval/tree/master/DCR)
 
 DCR-Consistency is a novel framework that uses LLM agents to detect and mitigate inconsistencies, or in other words hallucinations. It takes advantage of LLM's power in semantic understanding while circumventing known pitfalls such as relatively poor performance in math. For more details please see [our paper](https://arxiv.org/pdf/2401.02132.pdf).
 Given a `reference` as the ground truth and a `candidate` to evaluate, it will output a numeric score between [0, 1] indicating its consistency where 0 means no sentence in the `candidate` is consistent and 1 otherwise. It also outputs a list of `reasons` about why this score is generated. Better yet, based on such `reasons`, it can improve the `candidate` and mitigate detected inconsistencies. 
 
-## Uncertainty quantification
+## Uncertainty Quantification
 ### SPUQ : Perturbation-Based Uncertainty Quantification for Large Language Models
 [[Paper]](https://arxiv.org/abs/2403.02509) [[Code]](https://github.com/intuit-ai-research/LLM-response-quality-eval/tree/master/SPUQ)
 
